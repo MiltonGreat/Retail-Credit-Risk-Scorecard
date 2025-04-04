@@ -51,4 +51,4 @@ This scorecard provides a data-driven, regulatory-compliant approach to credit r
 
 ### Source
 
-![Home Credit Default Risk Dataset from Kaggle](https://www.kaggle.com/datasets/anggundwilestari/home-credit)
+![Give Me Some Credit Dataset from Kaggle](https://www.kaggle.com/c/GiveMeSomeCredit)
