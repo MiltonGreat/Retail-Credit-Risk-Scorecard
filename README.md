@@ -2,17 +2,14 @@
 
 A data-driven approach to evaluating customer credit risk using the "Give Me Some Credit" dataset
 
-![screenshot-localhost_8888-2025 04 03-15_12_52](https://github.com/user-attachments/assets/940976ba-0926-4b9c-ae48-0e16a9ee1167)
-
 ### Overview
 
-This project develops a transparent, points-based credit scorecard to assess customer default risk. Built using logistic regression and WOE (Weight of Evidence) binning, it transforms raw financial data into actionable risk scores (300–850 range). Designed for loan underwriting and portfolio risk management.
+This project developed a high-performing credit risk scorecard using machine learning to evaluate customer default risk. 
 
 ### Objectives
 
 - Interpretable scoring system (points per risk factor)
 -  Handles class imbalance (defaults are rare)
--  Regulatory-compliant (supports Basel III/IFRS 9)
 - AUC 0.858 – Strong predictive power
 
 ### Dataset
@@ -43,11 +40,17 @@ Key Features Used
 
 3. Validation
 - Train AUC: 0.8596 | Test AUC: 0.8580
-- KS Statistic: 0.52 (strong separation)
+- - Cross-Validation AUC | 0.8646 ± 0.0069
 
-### Conclusion
+### Risk Segmentation
 
-This scorecard provides a data-driven, regulatory-compliant approach to credit risk assessment. By focusing on behavioral patterns rather than static financial metrics, it offers a modern alternative to traditional scoring models.
+Risk Tier Cutoffs:
+
+1. Very High Risk: < 550  (25.3% default rate)
+2. High Risk: 550 - 590   (15.1%)
+3. Medium Risk: 590 - 620 (6.8%) 
+4. Low Risk: 620 - 650    (2.1%)
+5. Very Low Risk: > 650   (0.5%)
 
 ### Source
 
