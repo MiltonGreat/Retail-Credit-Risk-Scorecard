@@ -54,4 +54,4 @@ Risk Tier Cutoffs:
 
 ### Source
 
-![Give Me Some Credit Dataset from Kaggle](https://www.kaggle.com/c/GiveMeSomeCredit)
+[Give Me Some Credit Dataset from Kaggle](https://www.kaggle.com/c/GiveMeSomeCredit)
